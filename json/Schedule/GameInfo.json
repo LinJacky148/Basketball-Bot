@@ -1,0 +1,38 @@
+{
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+        {
+            "type": "text",
+            "text": "10/10",
+            "align": "center",
+            "gravity": "center"
+        },
+        {
+            "type": "text",
+            "text": "8:30",
+            "align": "center",
+            "gravity": "center"
+        },
+        {
+            "type": "text",
+            "text": "湖人",
+            "align": "center",
+            "gravity": "center"
+        },
+        {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "postback",
+                        "label": "更多",
+                        "data": "10/10"
+                    }
+                }
+            ]
+        }
+    ]
+}

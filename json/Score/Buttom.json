@@ -1,0 +1,22 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "button",
+                "action": {
+                    "type": "datetimepicker",
+                    "data": "SelectTime",
+                    "mode": "date",
+                    "label": "選擇查看時間",
+                    "min": "2010-10-10"
+                },
+                "color": "#33cc33",
+                "style": "secondary",
+                "margin": "xs"
+            }
+        ]
+    }
+}
